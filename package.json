@@ -1,0 +1,49 @@
+{
+    "name": "loide-api-server",
+    "version": "1.0.0",
+    "description": "LoIDE Server API",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DeMaCS-UNICAL/LoIDE-API-Server"
+    },
+    "contributors": [
+        {
+            "name": "Stefano Germano",
+            "email": "germano@mat.unical.it"
+        },
+        {
+            "name": "Eliana Palermiti",
+            "email": "eliana_palermiti@libero.it"
+        },
+        {
+            "name": "Rocco Palermiti",
+            "email": "roccopalermiti@virgilio.it"
+        },
+        {
+            "name": "Alexander Karaulshchikov",
+            "email": "alexander.karaulshchikov@gmail.com"
+        },
+        {
+            "name": "Francesco Calimeri",
+            "email": "calimeri@mat.unical.it"
+        }
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DeMaCS-UNICAL/LoIDE-API-Server/issues"
+    },
+    "dependencies": {
+        "ajv": "^6.12.6",
+        "json-pointer": "^0.6.2",
+        "socket.io": "^3.1.2",
+        "websocket": "^1.0.34"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
+}
