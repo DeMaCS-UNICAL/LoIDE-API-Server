@@ -1,100 +1,100 @@
 {
-    "languages": [
+  "languages": [
+    {
+      "name": "ASP",
+      "value": "asp",
+      "solvers": [
         {
-            "name": "ASP",
-            "value": "asp",
-            "solvers": [
-                {
-                    "name": "DLV2",
-                    "value": "dlv2",
-                    "executors": [
-                        {
-                            "protocol": "ws",
-                            "url": "localhost",
-                            "name": "EmbASPServerExecutor",
-                            "value": "embAspServerExecutor",
-                            "path": "/EmbASPServerExecutor/home",
-                            "port": 8080
-                        }
-                    ],
-                    "options": [
-                        {
-                            "name": "Free choice",
-                            "value": "free choice",
-                            "word_argument": true,
-                            "description": "Missing description"
-                        }
-                    ]
-                },
-                {
-                    "name": "Clingo",
-                    "value": "clingo",
-                    "executors": [
-                        {
-                            "protocol": "ws",
-                            "url": "localhost",
-                            "name": "EmbASPServerExecutor",
-                            "value": "embAspServerExecutor",
-                            "path": "/EmbASPServerExecutor/home",
-                            "port": 8080
-                        }
-                    ],
-                    "options": [
-                        {
-                            "name": "Free choice",
-                            "value": "free choice",
-                            "word_argument": true,
-                            "description": "Missing description"
-                        }
-                    ]
-                },
-                {
-                    "name": "DLV",
-                    "value": "dlv",
-                    "executors": [
-                        {
-                            "protocol": "ws",
-                            "url": "localhost",
-                            "name": "EmbASPServerExecutor",
-                            "value": "embAspServerExecutor",
-                            "path": "/EmbASPServerExecutor/home",
-                            "port": 8080
-                        }
-                    ],
-                    "options": [
-                        {
-                            "name": "Free choice",
-                            "value": "free choice",
-                            "word_argument": true,
-                            "description": "Missing description"
-                        },
-                        {
-                            "name": "Filter",
-                            "value": "-filter=",
-                            "word_argument": true,
-                            "description": "Missing description"
-                        },
-                        {
-                            "name": "No Facts",
-                            "value": "-nofacts",
-                            "word_argument": false,
-                            "description": "Missing description"
-                        },
-                        {
-                            "name": "Silent",
-                            "value": "-silent",
-                            "word_argument": false,
-                            "description": "Missing description"
-                        },
-                        {
-                            "name": "Query",
-                            "value": "-FC",
-                            "word_argument": false,
-                            "description": "Missing description"
-                        }
-                    ]
-                }
-            ]
+          "name": "DLV2",
+          "value": "dlv2",
+          "executors": [
+            {
+              "protocol": "ws",
+              "url": "127.0.0.1",
+              "name": "EmbASP",
+              "value": "embAspServerExecutor",
+              "path": "/",
+              "port": 12345
+            }
+          ],
+          "options": [
+            {
+              "name": "Free choice",
+              "value": "free choice",
+              "word_argument": true,
+              "description": "Missing description"
+            }
+          ]
+        },
+        {
+          "name": "Clingo",
+          "value": "clingo",
+          "executors": [
+            {
+              "protocol": "ws",
+              "url": "127.0.0.1",
+              "name": "EmbASP",
+              "value": "embAspServerExecutor",
+              "path": "/",
+              "port": 12345
+            }
+          ],
+          "options": [
+            {
+              "name": "Free choice",
+              "value": "free choice",
+              "word_argument": true,
+              "description": "Missing description"
+            }
+          ]
+        },
+        {
+          "name": "DLV",
+          "value": "dlv",
+          "executors": [
+            {
+              "protocol": "ws",
+              "url": "127.0.0.1",
+              "name": "EmbASP",
+              "value": "embAspServerExecutor",
+              "path": "/",
+              "port": 12345
+            }
+          ],
+          "options": [
+            {
+              "name": "Free choice",
+              "value": "free choice",
+              "word_argument": true,
+              "description": "Missing description"
+            },
+            {
+              "name": "Filter",
+              "value": "-filter=",
+              "word_argument": true,
+              "description": "Missing description"
+            },
+            {
+              "name": "No Facts",
+              "value": "-nofacts",
+              "word_argument": false,
+              "description": "Missing description"
+            },
+            {
+              "name": "Silent",
+              "value": "-silent",
+              "word_argument": false,
+              "description": "Missing description"
+            },
+            {
+              "name": "Query",
+              "value": "-FC",
+              "word_argument": false,
+              "description": "Missing description"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

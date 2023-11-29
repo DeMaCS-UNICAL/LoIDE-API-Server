@@ -5,7 +5,8 @@
     "main": "app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon app.js"
+        "start": "nodemon app.js",
+        "env": "node read_env.js"
     },
     "repository": {
         "type": "git",
@@ -39,6 +40,8 @@
     },
     "dependencies": {
         "ajv": "^6.12.6",
+        "dotenv": "^16.3.1",
+        "json": "^11.0.0",
         "json-pointer": "^0.6.2",
         "socket.io": "^3.1.2",
         "websocket": "^1.0.34"

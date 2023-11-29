@@ -162,9 +162,7 @@
                     "description": "This property indicates the executor URL to connect with it.",
                     "type": "string",
                     "oneOf": [
-                        { "format": "hostname" },
-                        { "format": "ipv4" },
-                        { "format": "ipv6" }
+                        { "format": "ipv4" }
                     ]
                 },
                 "name": {
