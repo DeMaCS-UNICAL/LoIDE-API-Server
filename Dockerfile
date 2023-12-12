@@ -4,8 +4,5 @@ COPY . .
 
 RUN npm install 
 
-
-EXPOSE ${ARG_HTTP_PORT}
-
 CMD npm start
 
