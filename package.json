@@ -40,10 +40,10 @@
     "dependencies": {
         "ajv": "^6.12.6",
         "json-pointer": "^0.6.2",
-        "socket.io": "^3.1.2",
+        "socket.io": "^4.7.2",
         "websocket": "^1.0.34"
     },
     "devDependencies": {
-        "nodemon": "^2.0.20"
+        "nodemon": "^3.0.2"
     }
 }
