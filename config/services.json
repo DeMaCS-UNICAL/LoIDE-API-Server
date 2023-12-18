@@ -11,9 +11,9 @@
                         {
                             "protocol": "ws",
                             "url": "localhost",
-                            "name": "EmbASPServerExecutor",
-                            "value": "embAspServerExecutor",
-                            "path": "/EmbASPServerExecutor/home",
+                            "name": "PythonESE",
+                            "value": "PythonESE",
+                            "path": "/",
                             "port": 8080
                         }
                     ],
@@ -33,9 +33,9 @@
                         {
                             "protocol": "ws",
                             "url": "localhost",
-                            "name": "EmbASPServerExecutor",
-                            "value": "embAspServerExecutor",
-                            "path": "/EmbASPServerExecutor/home",
+                            "name": "PythonESE",
+                            "value": "PythonESE",
+                            "path": "/",
                             "port": 8080
                         }
                     ],
@@ -55,9 +55,9 @@
                         {
                             "protocol": "ws",
                             "url": "localhost",
-                            "name": "EmbASPServerExecutor",
-                            "value": "embAspServerExecutor",
-                            "path": "/EmbASPServerExecutor/home",
+                            "name": "PythonESE",
+                            "value": "PythonESE",
+                            "path": "/",
                             "port": 8080
                         }
                     ],
@@ -72,19 +72,19 @@
                             "name": "Filter",
                             "value": "-filter=",
                             "word_argument": true,
-                            "description": "Missing description"
+                            "description": "Output only instances of the specified predicate(s)."
                         },
                         {
                             "name": "No Facts",
                             "value": "-nofacts",
                             "word_argument": false,
-                            "description": "Missing description"
+                            "description": "Don't include facts as part of the output."
                         },
                         {
                             "name": "Silent",
                             "value": "-silent",
                             "word_argument": false,
-                            "description": "Missing description"
+                            "description": "Suppress the startup banner and blank lines."
                         },
                         {
                             "name": "Query",
