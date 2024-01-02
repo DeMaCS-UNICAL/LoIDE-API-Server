@@ -1,10 +1,8 @@
 name: Docker Image CI
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  release:
+    types: [published]
 
 jobs:
   push_to_registry:
@@ -24,13 +22,13 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: markducks/loide:api
+          images: loideunical/loide:api
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
           context: .
           platforms: linux/amd64
           push: true
-          tags: markducks/loide:api
+          tags: loideunical/loide:api
           
             
