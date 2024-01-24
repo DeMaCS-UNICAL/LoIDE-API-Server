@@ -14,7 +14,7 @@
                             "name": "PythonESE",
                             "value": "PythonESE",
                             "path": "/",
-                            "port": 8080
+                            "port": 1443
                         }
                     ],
                     "options": [
@@ -36,7 +36,7 @@
                             "name": "PythonESE",
                             "value": "PythonESE",
                             "path": "/",
-                            "port": 8080
+                            "port": 1443
                         }
                     ],
                     "options": [
@@ -58,7 +58,7 @@
                             "name": "PythonESE",
                             "value": "PythonESE",
                             "path": "/",
-                            "port": 8080
+                            "port": 1443
                         }
                     ],
                     "options": [
