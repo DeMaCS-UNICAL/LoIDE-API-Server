@@ -1,12 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "app-config-schema.json",
-    "self": {
-        "vendor": "unical",
-        "name": "app-config",
-        "format": "jsonschema",
-        "version": "1-0-0"
-    },
+    "title": "Application configuration schema",
+    "description": "Describes the configuration of the application",
     "type": "object",
     "properties": {
         "port": {
