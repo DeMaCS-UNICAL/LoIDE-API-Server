@@ -5,7 +5,7 @@
 
 # LoIDE-API-Server
 An API server for LoIDE clients.
-It receives requests from LoIDE clients and forwards them to the server-side(executors) components of LoIDE. It also receives the responses from the server-side components and forwards them to the clients.
+This component acts as an intermediary between LoIDE clients and server-side executors. It handles incoming requests from clients, forwards them to the appropriate executors, and then send the responses back to the clients.
 
 # Getting Started
 
