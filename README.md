@@ -91,23 +91,16 @@ For examples on how to create or modify the configuration file refer to the next
 ## app-config.json
 This configuration file is used to set up the server ports and SSL certificate paths for the application.
 
-~~~json
-{
-  "port": {
-    "http": 8084,
-    "https": 8085
-  },
-  "path": {
-    "key": "path/to/ssl/key",
-    "cert": "path/to/ssl/cert"
-  }
-}
-~~~
-**Port:**
-This object contains the ports on which the HTTP and HTTPS servers will listen.
+### Port
 
-**Path:**
-This object contains the paths to the SSL certificate and key for the HTTPS server. If no SSL certificate is provided, the server will run in HTTP mode.
+This property is an object that specifies the ports for the HTTP and HTTPS servers.
+
+### Path
+
+This property is an object that specifies the paths to the SSL certificate and key for the HTTPS server.
+
+- `key`: The path to the SSL key file. Here, it's not provided, which means the HTTPS server will not be started.
+- `cert`: The path to the SSL certificate file. Similarly, it's not provided here, so the HTTPS server will not be started.
 
 ## services.json
 This configuration file is used to define the programming languages, solvers, executors, and options supported by the application.
