@@ -17,7 +17,8 @@ var cert = properties.path.cert;
 var servicesConfig = require("./config/services.json");
 
 // This function validates the JSON schemas
-var Ajv = require("ajv");
+var Ajv = require("ajv"); 
+const addFormats = require("ajv-formats");
 validateJsonSchemas();
 
 // Prepare the languages array to give to the clients
@@ -187,8 +188,8 @@ function validateSchema(jsonPath, schemaPath) {
     // Config
     var ajv = new Ajv({
         allErrors: true,
-        jsonPointers: true,
     });
+    addFormats(ajv);
 
     // Compiling the schema
     var compiledSchema = ajv.compile(schema);
