@@ -1,12 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "services-schema.json",
-    "self": {
-        "vendor": "unical",
-        "name": "services",
-        "format": "jsonschema",
-        "version": "1-0-0"
-    },
+    "title": "Services schema.",
+    "description": "This schema describes the services available on the LoIDE Web Application.",
+    "type": "object",
     "properties": {
         "languages": {
             "title": "Supported languages.",
@@ -181,7 +178,7 @@
                     "title": "Executor path.",
                     "description": "This property indicates the executor path relative to its URL.",
                     "type": "string",
-                    "_comment": "Add the pattern to match with the 'path'."
+                    "$comment": "Add the pattern to match with the 'path'."
                 },
                 "port": {
                     "title": "Connection port number.",
