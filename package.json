@@ -38,7 +38,8 @@
         "url": "https://github.com/DeMaCS-UNICAL/LoIDE-API-Server/issues"
     },
     "dependencies": {
-        "ajv": "^6.12.6",
+        "ajv": "^8.17.1",
+        "ajv-formats": "^3.0.1",
         "json-pointer": "^0.6.2",
         "socket.io": "^4.7.5",
         "websocket": "^1.0.35"
