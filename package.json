@@ -4,7 +4,7 @@
     "description": "LoIDE Server API",
     "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"Warning: no tests are currently available.\"",
         "start": "nodemon app.js"
     },
     "repository": {
