@@ -158,7 +158,7 @@
                     "title": "Executor URL.",
                     "description": "This property indicates the executor URL to connect with it.",
                     "type": "string",
-                    "oneOf": [
+                    "anyOf": [
                         { "format": "hostname" },
                         { "format": "ipv4" },
                         { "format": "ipv6" }
