@@ -1,41 +1,36 @@
 {
     "name": "loide-api-server",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "description": "LoIDE Server API",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Warning: no tests are currently available.\"",
-        "start": "nodemon app.js"
+    "bugs": {
+        "url": "https://github.com/DeMaCS-UNICAL/LoIDE-API-Server/issues"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/DeMaCS-UNICAL/LoIDE-API-Server"
     },
+    "license": "MIT",
     "contributors": [
         {
-            "name": "Stefano Germano",
-            "email": "germano@mat.unical.it"
+            "name": "Stefano Germano"
         },
         {
-            "name": "Eliana Palermiti",
-            "email": "eliana_palermiti@libero.it"
+            "name": "Eliana Palermiti"
         },
         {
-            "name": "Rocco Palermiti",
-            "email": "roccopalermiti@virgilio.it"
+            "name": "Rocco Palermiti"
         },
         {
-            "name": "Alexander Karaulshchikov",
-            "email": "alexander.karaulshchikov@gmail.com"
+            "name": "Alexander Karaulshchikov"
         },
         {
-            "name": "Francesco Calimeri",
-            "email": "calimeri@mat.unical.it"
+            "name": "Francesco Calimeri"
         }
     ],
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/DeMaCS-UNICAL/LoIDE-API-Server/issues"
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Warning: no tests are currently available.\""
     },
     "dependencies": {
         "ajv": "^8.17.1",
