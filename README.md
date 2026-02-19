@@ -7,6 +7,8 @@
 An API server for LoIDE clients.
 This component acts as an intermediary between LoIDE clients and server-side executors. It handles incoming requests from clients, forwards them to the appropriate executors, and then send the responses back to the clients.
 
+Part of the LoIDE project – [:octocat: repository](https://github.com/DeMaCS-UNICAL/LoIDE) , [🌐 website](https://demacs-unical.github.io/LoIDE) .
+
 # Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
